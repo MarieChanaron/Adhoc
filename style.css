@@ -1,0 +1,51 @@
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 576px) {
+    .large-screen{
+        display: none;
+    }
+    h1{
+        font-size: 4rem !important;
+        line-height: 1.1 !important;
+    }
+    figcaption{
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   .large-screen{
+    display: none;
+   }
+   h1 {
+    font-size: 4rem !important;
+    line-height: 1.1 !important;
+   }
+   figcaption {
+    font-size: 1rem !important;
+   }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .large-screen{
+        display: block;
+    }
+    .small-screen{
+        display: none;
+    }
+    h1 {
+        font-size: 4.5rem !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
