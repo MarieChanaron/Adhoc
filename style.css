@@ -5,11 +5,11 @@
         display: none;
     }
     h1{
-        font-size: 4rem !important;
+        font-size: 3.9rem !important;
         line-height: 1.1 !important;
     }
     figcaption{
-        font-size: 0.9rem !important;
+        font-size: 0.8rem !important;
     }
 }
 
@@ -37,6 +37,7 @@
     }
     h1 {
         font-size: 4.5rem !important;
+        line-height: 1.2 !important;
     }
 }
 
