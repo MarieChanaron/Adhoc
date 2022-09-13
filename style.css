@@ -14,8 +14,8 @@
     html{
         font-size: 65%;
     }
-    p{
-        font-size: 1.2rem;
+    p, a, figcaption {
+        font-size: 1.4rem;
     }
 }
 
